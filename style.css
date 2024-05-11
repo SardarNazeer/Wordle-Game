@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #c59cff, #7e5bfb);
+}
+
+.wrapper{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    gap: 1em;
+    background-color: #000;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 2.5em 3.75em rgba(30, 19, 70, 0.3);
+}
+
+.rules img{
+    width: 400px;
+}
+
+.container,
+.rules{
+    width: 18.75rem;
+    height: 22.5rem;
+    position: relative;
+}
+
+.hide{
+    display: none;
+}
